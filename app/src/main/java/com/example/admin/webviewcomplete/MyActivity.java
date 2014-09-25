@@ -29,6 +29,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -120,7 +121,10 @@ public class MyActivity extends Activity {
                 // Clear the session data
                 // This will clear all session data and
                 // redirect user to LoginActivity
+                email = null;
+                pwd = null;
                 session.logoutUser();
+
             }
         });
     }

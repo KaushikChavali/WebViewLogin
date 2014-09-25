@@ -75,7 +75,7 @@ public class LoginActivity extends Activity {
                     // For testing puspose username, password is checked with sample data
                     // username = test
                     // password = test
-                    if(username.equals("demouser1") && password.equals("demopass1")){
+                    if(username.equals("demouser1") && password.equals("demopass1")||username.equals("demouser2") && password.equals("demopass2")){
 
                         // Creating user login session
                         // For testing i am stroing name, email as follow
